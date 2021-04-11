@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.navbar-inverse {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+#mail{
+    background-color: aqua;
+    color: black;
+}
+.main{
+    display: flex;
+}
+#map{
+    margin-left: 50px;
+}
+.principal{
+    margin-left: 50px;
+    margin-top: 100px;
+}
