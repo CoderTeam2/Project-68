@@ -2,208 +2,139 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Blog Page</title>
+    <title>AMITY INTERNATIONAL SCHOOL, Noida</title>
 </head>
 
 <body>
-    <nav class="navbar-inverse my_nav_bar">
+    <nav class="navbar-inverse">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">AMAN GUPTA</a>
+            <img src="amity-international-school-logo-1.png" class="img-responsive" style="width: 10%">
+            <a class="navbar-brand" href="#">AMITY INTERNATIONAL SCHOOL, Noida</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="#travel">Travel</a></li>
-                <li><a href="#movies">Movies</a></li>
-                <li><a href="#enviorment">Environment</a></li>
-                <li><a href="#books">Books</a></li>
-                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#campusLife">Campus life</a></li>
+                <li><a href="#achievments">Achievements</a></li>
+                <li><a href="#new">What’s New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#contact">Contact us</a></li>
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="page-header" id="travel">
-            <h2 class="text-capitalize">
-                Places to visit
-            </h2>
-        </div>
-        <center>
-            <div class="travel_mainDiv">
-                <img class="img-responsive" src="Dawki river.jpg">
-                <h4 class="text-capitalize">Dawki River</h4>
-                <hr>
-                <h5 class="text-success text-left text-capitalize">I visited it in March, 2021</h5>
-                <p class="text-muted text-left"></p>
-            </div>
-        </center>
-        <br><br>
-        <center>
-            <div class="travel_mainDiv">
-                <img class="img-responsive" src="Neheru Planterarium.jpg">
-                <h4 class="text-capitalize">Neheru Planetarium</h4>
-                <hr>
-                <h5 class="text-success text-left text-capitalize">I visited it in April, 2019</h5>
-                <p class="text-muted text-left"></p>
-            </div>
-        </center>
-        <br><br>
-        <center>
-            <div class="travel_mainDiv">
-                <img class="img-responsive" src="Chokhi Haveli.jpeg">
-                <h4 class="text-capitalize">Chokhi Haveli</h4>
-                <hr>
-                <h5 class="text-success text-left text-capitalize">I visited it in Feburary,2021</h5>
-                <p class="text-muted text-left"></p>
-            </div>
-        </center>
-        <div class="page-header" id="movies">
-            <h2 class="text-capitalize">
-                Reviews on the Movies
-            </h2>
-        </div>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Super30">
-            <span class="glyphicon glyphicon-film"></span>Super 30<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="Super30" class="collapse">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <img src="Super 30.jfif" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-left text-capitalize text-success">Marvelous Film to watch
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                </h5>
-                <p>Anand Kumar, a mathematician from Patna, India, works his way through challenges towards success before running the Super 30 programme for IIT aspirants in Patna.
-                </p>
-            </div>
-        </div>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#missionMangal">
-            <span class="glyphicon glyphicon-film"></span>Mission Mangal<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="missionMangal" class="collapse">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <img src="Mission Mangal.jpg" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-left text-capitalize text-success">Facinating Film to watch
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                </h5>
-                <p>A group of scientists at ISRO battle in their personal and professional lives and work tirelessly towards their only motive, the Mars Orbiter Mission.</p>
-            </div>
-        </div>
-        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#3idiots">
-            <span class="glyphicon glyphicon-film"></span>3-Idiots<i class="fa fa-sort-desc"></i>
-        </div>
-        <div id="3idiots" class="collapse">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <img src="3 idiots.jpg" class="img-responsive img-thumbnail">
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
-                <h5 class="text-left text-capitalize text-success">Amazing Film to watch
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                    <span class="glyphicon glyphicon-star"></span>
-                </h5>
-                <p>In college, Farhan and Raju form a great bond with Rancho due to his positive and refreshing outlook to life. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.</p>
-            </div>
-        </div>
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="enviorment">
-            <h2 class="text-capitalize">News about enviorment</h2>
-        </div>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12" enviorment-li>
-                <h4>Lego plans to find replacement material for bricks by 2030.</h4>
-                <img src="Lego.jpg" class="img-resposive col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In an effort to be more enviotmently responsible, lego have said to stop manufacturing brics made of plastic resim.</p>
-            </li>
-            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12" enviorment-li>
-                <h4>Discarded masks litter beaches worldwide, threaten sea life.</h4>
-                <img src="https://images.hindustantimes.com/img/2021/04/08/550x309/pollution-4855507_1920_1617867906867_1617867912436.jpg" class="img-resposive col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">To the usual list of foul trash left behind or washed up on beaches around the world, add these: masks and gloves used by people to avoid the coronavirus and then discarded on the sand.</p>
-            </li>
-        </ul>
-        <br><br>
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="text-capitalize">books</h2>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3>Bill Gates</h3>
-            <h4><mark class="header-entrepreneur">
-                    <sup><i class="fa fa-quote-left"></i></sup>Reading is stil the main way that I both learn new things and test my understanding<sup><i class="fa fa-quote-right"></i></sup>
-                </mark></h4>
-        </div>
-        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="text-capitalize">List of Books</h2>
-        </div>
-        <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#100key">
-            <img src="Lego.jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">The hunt for the hundredth key</p>
-        </div>
-        <div class="modal fade" id="100key">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">The Hunt for the Hundredth Key</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Lego.jpg" class="img-responsive img_modal">
-                        <p class="p_modal">Marvelous book to read<br>
-                            <a href="" style="text-decoration: none">Best Buy Link</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#100key">
-            <img src="Lego.jpg" class="img-responsive">
-            <hr>
-            <p class="text-primary">The hunt for the hundredth key</p>
-        </div>
-        <div class="modal fade" id="100key">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">The Hunt for the Hundredth Key</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img src="Lego.jpg" class="img-responsive img_modal">
-                        <p class="p_modal">Marvelous book to read<br>
-                            <a href="" style="text-decoration: none">Best Buy Link</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-        <section id="contact">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
-            <hr style="width: 100%;">
-            <img src="" class="img-responsive img-circle">
-            <h3>AMAN GUPTA</h3>
-                <a href="mailto:my@gmail.com">
-                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;aman.gup1510@gmail.com</h5>
-                </a>
-        </section>
+    <marquee onmouseover="this.stop();" onmouseout="this.start();" id="mail">
+        *** Feel free to ask any questions at amity@aisn.amity.edu ***
+    </marquee>
+    <br><br>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/e4LyuUevCsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <div class="page-header" id="campusLife">
+        <h2 class="text-capitalize">Place must visit in Campus</h2>
     </div>
-</body></html>
+    <center>
+        <!-- 1st place-->
+        <div class="campus-mainDiv">
+            <img class="img-responsive" src="https://www.amity.edu/ais/noida/img/Infrastructure/audi1.jpg">
+            <h4 class="text-capitalize"><kbd>School Auditorium</kbd></h4>
+            <hr>
+            <h5 class="text-success">Our auditorium is very spacious, has a large seating capacity and has a wooden flored stage.</h5>
+            <p class="text-muted">The School has two auditoriums, a seminar hall, two multipurpose halls and an amphitheater. A Beautiful Amphitheater is always bustling with activities like assemblies, dramatics and informal functions.</p>
+        </div>
+        <!-- 2nd place-->
+        <div class="campus-mainDiv">
+            <img class="img-responsive" src="https://www.amity.edu/ais/noida/images/about_amity1.jpg">
+            <h4 class="text-capitalize"><kbd>Sports Field</kbd></h4>
+            <hr>
+            <h5 class="text-success">Our Sports Feild is very large. There many sports to play like cricket, Basketball, Horse Riding and ect.</h5>
+            <p class="text-muted">The school has lush green grounds for cricket, hockey, football, basket ball , two lawn tennis clay courts, standard size skating rink and standard size horse riding area, one standard size badminton court, 10 mtr shooting range, chess room , table tennis room and MP hall for Karate.</p>
+        </div>
+    </center>
+    <br><br>
+    <div class="page-header" id="achievments">
+        <h2 class="text-capitalize">achievments</h2>
+    </div>
+    <div class="bg-primary achievments_head" data-toggle="collapse" data-target="#sports">
+        Inter Amity Sports Competion <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="sports" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="https://www.amity.edu/ais/noida/img/Happening/aisn_201.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h5 class="text-success text-left text-capitalize">Inter Amity Sports Competion
+            </h5>
+            <p class="text-left">More than 19000 students took part in the sixth edition of the Inter- Amity Sports Competition 2017-18, competing in 13 sports disciplines including skating, taekwondo, chess, kho-kho, etc. The school played host to competitions for aerobics.</p>
+        </div>
+    </div>
+    <div class="bg-primary achievments_head" data-toggle="collapse" data-target="#math">
+        Ramanujan Math Competion <i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="math" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="https://www.amity.edu/ais/aisv1/assets/images/2019-20/awards/aisv1_004.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h5 class="text-success text-left text-capitalize">Ramanujan Math Competion
+            </h5>
+            <p class="text-left">School hosted 19th inter school Ramanujan competition of math in which more than 250 students from 29 eminent schools of Delhi / NCR participated. School team won the first prize in ‘Problem solving' for Class IX-X and ‘Math fun activity' for Class IV-V and the third prize in ‘Math Quiz' for Class VI-VIII.</p>
+        </div>
+    </div>
+    <div class="bg-primary achievments_head" data-toggle="collapse" data-target="#mentalMath">
+        Inter Amity Mental Math Quiz<i class="fa fa-sort-desc"></i>
+    </div>
+    <div id="mentalMath" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="https://www.amity.edu/ais/aisv1/assets/images/2017-18/beyond_academics/interamity/aisv1_0009.jpg" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h5 class="text-success text-left text-capitalize">Inter Amity Mental Math Quiz
+            </h5>
+            <p class="text-left">School team won various laurels at 10th Inter Amity Mental Math quiz. It secured the first position in Class I, II, IV and V and third position in Class III. The school also hosted the finale for the students of Class X, participating in the annual quiz.
+            </p>
+        </div>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+        <h2 class="text-capitalize">What's New</h2>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 enviorment-li">
+            <h3>Almost from birth, infants learn, absorb information and explore the world around them.</h3>
+            <img class="img-responsive col-lg-12 col-md-5 col-sm-5 col-xs-12" src="http://www.amiown.com/Amicots_Pics/6.JPG">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Amicots, a unique programme, is designed especially for infants between 9 and 14 months. It aims to provide high-quality child care, boost brain development and support developing skills in all domains. Amicots is an exceptional place where infants can thrive and advance comfortably and confidently towards understanding the world around them.</p>
+        </li>
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 enviorment-li">
+            <h3>In Amiown’s Kindergarten, learning is all fun and games in an environment infused with happiness, joy, curiosity and excitement.</h3>
+            <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="http://www.amiown.com/images/icon-Kindergarten-programme.png">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">A variety of unique play areas and innovative play techniques help the children learn and experience different things. Toddlers pick things up through an array of teacher guided activities that range from singing, dancing, storytelling, simple exercises, team activities, dramas and innovative play activities among others.
+
+            </p>
+        </li>
+    </ul>
+    <br><br>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+        <h3>Contact us</h3>
+    </div>
+
+    <hr>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d56048.140939810524!2d77.258929573774!3d28.59951255214629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d28.6446772!2d77.320955!4m5!1s0x390ce43253fb8449%3A0x8c199a622c2b1ffe!2sAmity%20International%20School%2C%20A%20Block%2C%20C%20Block%2C%20Sector%2044%2C%20Noida%2C%20Uttar%20Pradesh%20201303!3m2!1d28.556200999999998!2d77.3305713!5e0!3m2!1sen!2sin!4v1618070150185!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br>
+    <div class="principal">
+        <img src="https://www.amity.edu/ais/noida/images/principle_amity.jpg" style="width: 20%" class="img-circle">
+        <h4>Principal Name :</h4>
+        <h4>Mrs. Renu Singh</h4>
+        <a href="mailto:amity@aisn.amity.edu">
+            <h5>amity@aisn.amity.edu</h5>
+        </a>
+    </div>
+</body>
+</html>
