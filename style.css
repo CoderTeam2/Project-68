@@ -1,36 +1,27 @@
-#contact iframe {
-    width: 100%;
+body{
+    text-align: center;
 }
-
-.contact_1 h3 {
-    display: inline;
+.navbar-inverse {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
-
-.contact_1 a {
-    text-shadow: none;
+#mail{
+    background-color: aqua;
+    color: black;
 }
-
-.travel_mainDiv {
+.campus-mainDiv{
     border: 1px solid black;
     padding-left: 0px;
     padding-right: 0px;
     float: none;
 }
 
-.travel_mainDiv img {
-    width: 100%;
+.campus-mainDiv img {
+    width: 50%;
 }
 
-.travel_mainDiv hr {
-    width: 250px;
-}
-
-.travel_mainDiv h5,
-.travel_mainDiv p {
-    margin-left: 20px;
-}
-
-.movie_head {
+.achievments_head{
     font-size: 20px;
     padding: 6px 20px;
     border-radius: 10px;
@@ -39,19 +30,15 @@
     display: inline-block;
 }
 
-.movie_head i {
+.achievments_head i {
     float: right;
 }
 
-.movie_text span {
-    color: gold;
-}
-
-.enviorment-li {
+.enviorment-li{
     margin-top: 12px;
 }
 
-.envioment-li h4 {
+.enviorment-li h4 {
     border-bottom: 1px solid black;
     padding: 8px;
 }
@@ -59,21 +46,9 @@
 .enviorment-li p {
     margin-top: 10px;
 }
-.book{
-    cursor: pointer;
+.list-group-item img{
+    width: 25%;
 }
-.book hr{
-    margin-top: 10px;
-}
-modal-content{
-    margin-top: 100px;
-}
-.img_modal{
-    display: inline-block;
-}
-.p_modal{
-    margin-top: 20px;
-}
-.page-header{
-    display: flex;
+.list-group-item-text {
+  font-size: 15px;   
 }
